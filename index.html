@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="qr.css">
+    <title>QR code Generator</title>
+</head>
+
+<body>
+        <h1 class="text-light fw-bolde text-center mt-5">QR CODE <span class="text-primary">GENERATOR</span></h1>
+
+        <div class="container text-center pt-4 pb-4 ps-5 pe-5 position-absolute top-50 start-50  rounded-3 bg-light">
+
+            <h5 class="fw-bolder">ENTER YOUR TEXT OR URL</h5>
+            <input type="text" placeholder="text or URL" class=" p-3 rounded-2" id="qrtext">
+
+            <div id="imgBox">
+                <img src="" id="qrimage" alt="No internet connection">
+            </div>
+
+            <button class="w-100 text-light border-0 shadow-lg rounded-3 fw-bolder">Generate QR Code</button>
+        </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="qr.js"></script>
+</body>
+
+</html>
